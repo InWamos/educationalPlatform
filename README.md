@@ -12,3 +12,6 @@ admin
 ```password
 admin88**
 ```
+
+# Login form preview
+![Login Form](./images/login_form.png)
