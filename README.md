@@ -5,11 +5,11 @@
 [GULIDA Roman](https://github.com/roman-gulida)
 
 # Admin Login Credentials:
-```login
+```
 admin
 ```
 
-```password
+```
 admin88**
 ```
 
