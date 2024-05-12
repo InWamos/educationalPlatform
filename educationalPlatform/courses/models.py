@@ -14,8 +14,8 @@ class Subject(models.Model):
     class Meta:
         ordering = ["title"]
 
-        def __str__(self):
-            return self.title
+    def __str__(self):
+        return self.title
 
 
 class Course(models.Model):
@@ -33,8 +33,8 @@ class Course(models.Model):
     class Meta:
         ordering = ["-created"]
 
-        def __str__(self):
-            return self.title
+    def __str__(self):
+        return self.title
 
 
 class Module(models.Model):
@@ -78,8 +78,8 @@ class ItemBase(models.Model):
     class Meta:
         abstract = True
 
-        def __str__(self):
-            return self.title
+    def __str__(self):
+        return self.title
 
 
 class Text(ItemBase):
