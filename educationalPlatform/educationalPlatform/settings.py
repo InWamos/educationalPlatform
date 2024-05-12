@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'embed_video',
     'students.apps.StudentsConfig',
     'courses.apps.CoursesConfig',
     'django.contrib.admin',
