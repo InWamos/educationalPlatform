@@ -12,6 +12,15 @@ admin
 ```
 admin88**
 ```
+# Install dependencies:
+```
+pip3 install -r requirements.txt
+```
+
+# Launch Redis in docker
+```
+docker run -it --rm --name redis -p 6379:6379 redis
+```
 
 # Login form preview
 ![Login Form](./images/login_form.png)
