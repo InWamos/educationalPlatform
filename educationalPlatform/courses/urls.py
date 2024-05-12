@@ -21,4 +21,9 @@ urlpatterns = [
         views.ContentCreateUpdateView.as_view(),
         name="module_content_update",
     ),
+    path(
+        "content/<int:id>/delete/",
+        views.ContentDeleteView.as_view(),
+        name="module_content_delete",
+    ),
 ]
