@@ -21,6 +21,6 @@ pip3 install -r requirements.txt
 ```
 docker run -it --rm --name redis -p 6379:6379 redis
 ```
-
+![Redis Terminal photo](./images/redis_docker.png)
 # Login form preview
 ![Login Form](./images/login_form.png)
