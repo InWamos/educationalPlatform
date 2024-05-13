@@ -30,6 +30,7 @@ urlpatterns = [
     path("accounts/logout/", auth_views.LogoutView.as_view(), name="logout"),
     path("", CourseListView.as_view(), name="course_list"),
     path("__debug__/", include("debug_toolbar.urls")),
+    path('chat/', include('chat.urls', namespace='chat')),
 ]
 
 if settings.DEBUG:

@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'embed_video',
     'debug_toolbar',
     'redisboard',
+    'chat',
+    'channels'
     'rest_framework'
 ]
 
@@ -79,7 +81,16 @@ CACHES = {
 
 CACHE_MIDDLEWARE_ALIAS = 'default'
 CACHE_MIDDLEWARE_SECONDS = 60 * 15
-CACHE_MIDDLEWARE_KEY_PREFIX = 'educa'
+CACHE_MIDDLEWARE_KEY_PREFIX = 'educationalPlatform'
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('127.0.0.1', 6379)],
+        },
+    },
+}
 
 TEMPLATES = [
     {
@@ -98,7 +109,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'educationalPlatform.wsgi.application'
-
+ASGI_APPLICATION = 'educationalPlatform.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
