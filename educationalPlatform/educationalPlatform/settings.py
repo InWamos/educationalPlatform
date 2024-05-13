@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'redisboard',
     'chat',
-    'channels'
+    'channels',
     'rest_framework'
 ]
 
