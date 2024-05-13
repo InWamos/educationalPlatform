@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'embed_video',
     'debug_toolbar',
     'redisboard',
-    'chat'
+    'chat',
+    'channels'
 ]
 
 MIDDLEWARE = [
@@ -72,7 +73,7 @@ CACHES = {
 
 CACHE_MIDDLEWARE_ALIAS = 'default'
 CACHE_MIDDLEWARE_SECONDS = 60 * 15
-CACHE_MIDDLEWARE_KEY_PREFIX = 'educa'
+CACHE_MIDDLEWARE_KEY_PREFIX = 'educationalPlatform'
 
 TEMPLATES = [
     {
@@ -91,7 +92,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'educationalPlatform.wsgi.application'
-
+ASGI_APPLICATION = 'educationalPlatform.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
