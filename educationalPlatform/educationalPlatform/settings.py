@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'redisboard',
     'chat',
     'channels'
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -63,7 +64,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'educationalPlatform.urls'
 
+# Django REST 
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
 
+# Cache for the project
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.redis.RedisCache',
