@@ -4,6 +4,13 @@
 [PIDGORNYI Mykyta](https://github.com/InWamos)  
 [GULIDA Roman](https://github.com/roman-gulida)
 
+# Used Technologies:
+- Redis
+- PostgreSQL
+- Django
+- Django Channels
+- Django REST
+
 # Admin Login Credentials:
 ```
 admin
