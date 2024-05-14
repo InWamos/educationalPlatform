@@ -2,3 +2,6 @@
 **/__pycache__
 
 **.sqlite3
+
+**.conf
+**my_pgpass
