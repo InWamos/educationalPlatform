@@ -21,6 +21,11 @@ pip3 install -r requirements.txt
 http://localhost:8000/course/mine/
 ```
 
+# Enter the chat:
+```
+http://localhost:8000/chat/room/3/
+```
+
 # Launch Redis in docker
 ```
 docker run -it --rm --name redis -p 6379:6379 redis
