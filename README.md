@@ -16,6 +16,10 @@ admin88**
 ```
 pip3 install -r requirements.txt
 ```
+# Manage creator's courses:
+```
+http://localhost:8000/course/mine/
+```
 
 # Launch Redis in docker
 ```
