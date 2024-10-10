@@ -2,9 +2,7 @@
 
 ### Contributors:  
 [PIDGORNYI Mykyta](https://github.com/InWamos)  
-[GULIDA Roman](https://github.com/roman-gulida)  
-[Taiem Ahmad](https://github.com/Taiem3)  
-[Mazilu Stefan](https://github.com/Stefan1007)  
+ 
 
 # Used Technologies:
 - Redis
